@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: rgb(17, 157, 238);
+}
+
+
+#board{
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+  margin-left: 25%;
+}
+
+@media only screen and (min-width: 600px) {
+    #board{
+        margin-left: 25%;
+    }
+} 
+@media only screen and (max-width: 600px) {
+    #board{
+        margin-left: 8%;
+    }
+} 
+@media only screen and (min-width: 900px) {
+    #board{
+        margin-left: 30%;
+    }
+} 
+
+#start{
+    width:60px;
+    height:40px;
+    position: absolute;
+    left: 48%;
+    background-color: blue;
+    color:white ;
+    border-color: rgb(61, 240, 136);
+    box-shadow: 1px 1px 5px 2px;
+    font-weight: bold;
+}
+
+
+
